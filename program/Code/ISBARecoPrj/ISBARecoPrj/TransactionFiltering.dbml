@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ISBA" EntityNamespace="ISBADAL" ContextNamespace="ISBADBML" Class="TransactionFilteringDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=VINAYAK\SQLEXPRESS;Initial Catalog=ISBA;Integrated Security=True;Pooling=False" SettingsObjectName="ISBARecoPrj.Properties.Settings" SettingsPropertyName="ISBAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Transaction_Data" Member="Transaction_Datas">
+    <Type Name="Transaction_Data">
+      <Column Name="Account_ID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Transaction_type" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Transaction_Amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Currency" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Transaction_Source" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Denomination" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Transaction_date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Transaction_date_julian" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Orig_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Orig_bank" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Orig_Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Bene_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Bene_Bank" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Bene_Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Transaction_ID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Customer_Data" Member="Customer_Datas">
+    <Type Name="Customer_Data">
+      <Column Name="Account_number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Account_Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Customer_type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Customer_Role" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Account_Currency" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Customer_Risk" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Customer_Organisation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Customer_Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Customer_Limit" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Customer_ID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rule_Parameter" Member="Rule_Parameters">
+    <Type Name="Rule_Parameter">
+      <Column Name="Rule_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Rule_Short_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Rule_Description" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Cust_Type" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Tot_Trx_Amount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Tot_Trx_Count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isDenom" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="dr_txn_amount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dr_trx_cnt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cr_trx_amt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cr_txn_cnt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cust_risk" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ftc_ind" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

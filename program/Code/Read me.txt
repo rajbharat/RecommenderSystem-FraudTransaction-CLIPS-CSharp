@@ -1,0 +1,10 @@
+Install Sql server express latest version
+change the server name in the data  source = "XXX" in app.config file in the release directory.
+Data source will be the server name set up in the local
+##connectionString="Data Source=VINAYAK\SQLEXPRESS;Initial Catalog=ISBA;Integrated Security=True;Pooling=False"
+Install .net latest version
+Install sql server management studio and visual studio community edition if required to run the code
+install the ms excel connectivity package - shared in the same directory
+extract the code/build in <c:\> only; release files (ISBARecoPrj.exe) will have to run from this folder(C:\ISBARecoPrj\ISBARecoPrj)
+refer to screenshot in the folder.
+all set!

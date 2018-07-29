@@ -1,0 +1,15 @@
+C:\ISBARecoPrj\ISBARecoPrj\bin\x86\Release\ISBARecoPrj.exe.config
+C:\ISBARecoPrj\ISBARecoPrj\bin\x86\Release\ISBARecoPrj.exe
+C:\ISBARecoPrj\ISBARecoPrj\bin\x86\Release\ISBARecoPrj.pdb
+C:\ISBARecoPrj\ISBARecoPrj\bin\x86\Release\LumenWorks.Framework.IO.dll
+C:\ISBARecoPrj\ISBARecoPrj\bin\x86\Release\Mommosoft.ExpertSystem.dll
+C:\ISBARecoPrj\ISBARecoPrj\bin\x86\Release\NVelocity.dll
+C:\ISBARecoPrj\ISBARecoPrj\bin\x86\Release\LumenWorks.Framework.IO.pdb
+C:\ISBARecoPrj\ISBARecoPrj\bin\x86\Release\LumenWorks.Framework.IO.xml
+C:\ISBARecoPrj\ISBARecoPrj\obj\x86\Release\ISBARecoPrj.ISBATxnGUI.resources
+C:\ISBARecoPrj\ISBARecoPrj\obj\x86\Release\ISBARecoPrj.Properties.Resources.resources
+C:\ISBARecoPrj\ISBARecoPrj\obj\x86\Release\ISBARecoPrj.csproj.GenerateResource.Cache
+C:\ISBARecoPrj\ISBARecoPrj\obj\x86\Release\ISBARecoPrj.csproj.CoreCompileInputs.cache
+C:\ISBARecoPrj\ISBARecoPrj\obj\x86\Release\ISBARecoPrj.exe
+C:\ISBARecoPrj\ISBARecoPrj\obj\x86\Release\ISBARecoPrj.pdb
+C:\ISBARecoPrj\ISBARecoPrj\obj\x86\Release\ISBARecoPrj.csprojResolveAssemblyReference.cache

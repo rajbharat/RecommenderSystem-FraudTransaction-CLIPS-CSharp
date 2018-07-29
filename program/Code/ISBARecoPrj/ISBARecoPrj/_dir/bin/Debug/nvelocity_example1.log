@@ -1,0 +1,12 @@
+2018-03-05 00:38:34,873 - SimpleLog4NetLogSystem initialized using logfile 'nvelocity_example1.log'
+2018-03-05 00:38:34,897 - ************************************************************** 
+2018-03-05 00:38:34,897 - Starting NVelocity v0.4.1
+2018-03-05 00:38:34,897 - RuntimeInstance initializing.
+2018-03-05 00:38:34,897 - Using log4net as logger of final resort.
+2018-03-05 00:38:34,898 - It appears that no class was specified as the ResourceManager.  Please ensure that all configuration information is correct.
+2018-03-05 00:41:01,872 - SimpleLog4NetLogSystem initialized using logfile 'nvelocity_example1.log'
+2018-03-05 00:41:01,896 - ************************************************************** 
+2018-03-05 00:41:01,896 - Starting NVelocity v0.4.1
+2018-03-05 00:41:01,896 - RuntimeInstance initializing.
+2018-03-05 00:41:01,896 - Using log4net as logger of final resort.
+2018-03-05 00:41:01,898 - It appears that no class was specified as the ResourceManager.  Please ensure that all configuration information is correct.

@@ -1,0 +1,100 @@
+﻿(deftemplate customer_trxn
+(slot customer_id) (slot cust_type) (slot trxn_id) (slot total_trxn_amt) (slot benef_id) (slot ftc_ind) (slot denom) (slot cust_risk) (slot dr_cr_ind))
+
+(deffacts cust_trxn_dtl
+#foreach( $s in $TxnList )
+	(customer_trxn (customer_id $CustID) (cust_type $CustType) (trxn_id $s.Transaction_ID) (total_trxn_amt $s.Transaction_Amount)(benef_id $s.Bene_Name)(ftc_ind $s.ftc_ind )(denom $s.Denomination)(cust_risk $CustRisk)(dr_cr_ind $s.Transaction_type))
+#end 
+
+
+;;threshold value for scenario 1
+(scn1_ind_trxn_amt $scn1_ind_trxn_amt)
+(scn1_ind_trxn_cnt $scn1_ind_trxn_cnt)
+(scn1_ind_ftc_ind $scn1_ind_ftc_ind)
+(scn1_ind_denom_ind $scn1_ind_denom_ind)
+(scn1_org_trxn_amt $scn1_org_trxn_amt)
+(scn1_org_trxn_cnt $scn1_org_trxn_cnt)
+(scn1_org_ftc_ind $scn1_org_ftc_ind)
+(scn1_org_denom_ind $scn1_org_denom_ind)
+(scn1_cust_risk_th $scn1_cust_risk_th)
+(scn1_cust_risk_th2 $scn1_cust_risk_th2)
+;;threshold value for scenario 2
+(scn2_ind_trxn_amt $scn2_ind_trxn_amt)
+(scn2_ind_denom_ind $scn2_ind_denom_ind)
+(scn2_org_trxn_amt $scn2_org_trxn_amt)
+(scn2_org_denom_ind $scn2_org_denom_ind)
+(scn2_cust_risk_th $scn2_cust_risk_th)
+(scn2_cust_risk_th2 $scn2_cust_risk_th2)
+;;threshold value for scenario 3
+(scn3_ind_trxn_cnt $scn3_ind_trxn_cnt)
+(scn3_ind_trxn_amt $scn3_ind_trxn_amt)
+(scn3_ind_denom_ind $scn3_ind_denom_ind)
+(scn3_org_trxn_cnt $scn3_org_trxn_cnt)
+(scn3_org_trxn_amt $scn3_org_trxn_amt)
+(scn3_org_denom_ind $scn3_org_denom_ind)
+(scn3_cust_risk_th $scn3_cust_risk_th)
+(scn3_cust_risk_th2 $scn3_cust_risk_th2)
+;;threshold value for scenario 4
+(scn4_ind_trxn_cnt $scn4_ind_trxn_cnt)
+(scn4_ind_trxn_amt $scn4_ind_trxn_amt)
+(scn4_ind_denom_ind $scn4_ind_denom_ind)
+(scn4_ind_dr_trxn_amt $scn4_ind_dr_trxn_amt)
+(scn4_ind_cr_trxn_amt $scn4_ind_cr_trxn_amt)
+(scn4_org_trxn_cnt $scn4_org_trxn_cnt)
+(scn4_org_trxn_amt $scn4_org_trxn_amt)
+(scn4_org_denom_ind $scn4_org_denom_ind)
+(scn4_org_dr_trxn_amt $scn4_org_dr_trxn_amt)
+(scn4_org_cr_trxn_amt $scn4_org_cr_trxn_amt)
+(scn4_cust_risk_th $scn4_cust_risk_th)
+(scn4_cust_risk_th2 $scn4_cust_risk_th2)
+;;threshold value for scenario 5
+(scn5_ind_dr_amt $scn5_ind_dr_amt)
+(scn5_ind_dr_cnt $scn5_ind_dr_cnt)
+(scn5_org_dr_amt $scn5_org_dr_amt)
+(scn5_org_dr_cnt $scn5_org_dr_cnt)
+(scn5_ind_cr_amt $scn5_ind_cr_amt)
+(scn5_ind_cr_cnt $scn5_ind_cr_cnt)
+(scn5_org_cr_amt $scn5_org_cr_amt)
+(scn5_org_cr_cnt $scn5_org_cr_cnt)
+(scn5_cust_risk_th $scn5_cust_risk_th)
+(scn5_cust_risk_th2 $scn5_cust_risk_th2)
+(scn5_cust_risk_th3 $scn5_cust_risk_th3)
+(scn5_cust_risk_th4 $scn5_cust_risk_th4)
+;;threshold value for scenario 6
+(scn6_ind_dr_cr_amt $scn6_ind_dr_cr_amt)
+(scn6_org_dr_cr_amt $scn6_org_dr_cr_amt)
+
+;;threshold value for scenario 7
+(scn7_ind_ftc_ind $scn7_ind_ftc_ind)
+(scn7_ind_trxn_amt $scn7_ind_trxn_amt)
+(scn7_org_ftc_ind $scn7_org_ftc_ind)
+(scn7_org_trxn_amt $scn7_org_trxn_amt)
+(scn7_cust_risk_th $scn7_cust_risk_th)
+(scn7_cust_risk_th2 $scn7_cust_risk_th2)
+;;threshold value for scenario 8
+(scn8_ind_trxn_cnt $scn8_ind_trxn_cnt)
+(scn8_org_trxn_cnt $scn8_org_trxn_cnt)
+(scn8_cust_risk_th $scn8_cust_risk_th)
+(scn8_cust_risk_th2 $scn8_cust_risk_th2)
+;;threshold value for scenario 9
+(scn9_ind_cr_trxn_amt $scn9_ind_cr_trxn_amt)
+(scn9_ind_cr_trxn_cnt $scn9_ind_cr_trxn_cnt)
+(scn9_ind_trxn_amt $scn9_ind_trxn_amt)
+(scn9_ind_denom_ind $scn9_ind_denom_ind)
+(scn9_org_cr_trxn_amt $scn9_org_cr_trxn_amt)
+(scn9_org_cr_trxn_cnt $scn9_org_cr_trxn_cnt)
+(scn9_org_trxn_amt $scn9_org_trxn_amt)
+(scn9_org_denom_ind $scn9_org_denom_ind)
+(scn9_ind_dr_trxn_amt $scn9_ind_dr_trxn_amt)
+(scn9_ind_dr_trxn_cnt $scn9_ind_dr_trxn_cnt)
+(scn9_org_dr_trxn_amt $scn9_org_dr_trxn_amt)
+(scn9_org_dr_trxn_cnt $scn9_org_dr_trxn_cnt)
+(scn9_org_trxn_amt $scn9_org_trxn_amt)
+(scn9_cust_risk_th $scn9_cust_risk_th)
+(scn9_cust_risk_th2 $scn9_cust_risk_th2)
+(scn9_cust_risk_th3 $scn9_cust_risk_th3)
+(scn9_cust_risk_th4 $scn9_cust_risk_th4)
+)
+
+
+   

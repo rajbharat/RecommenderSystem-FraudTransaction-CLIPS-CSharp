@@ -1,0 +1,3 @@
+#foreach( $name in $list )
+    $name is great!
+#end

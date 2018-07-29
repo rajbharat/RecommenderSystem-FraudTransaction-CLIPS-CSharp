@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TransactionFiltering">
+  <DataContextMoniker Name="/TransactionFilteringDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1808ca7f-4d6b-4702-ae09-b4ea303ab767" absoluteBounds="1.125, 1.125, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/TransactionFilteringDataContext/Transaction_Data" />
+      <nestedChildShapes>
+        <elementListCompartment Id="541e5d02-47d2-4a34-b5a6-763cf8c23af4" absoluteBounds="1.1400000000000001, 1.585, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6a80cddd-a5a0-4d13-9e5f-091fa7d14d2d" absoluteBounds="3.75, 1.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/TransactionFilteringDataContext/Customer_Data" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f5926c7a-ae5e-4a7e-90fa-a35e700327b4" absoluteBounds="3.765, 1.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5e54c758-d713-4eba-bb04-1d5c7afeb681" absoluteBounds="6.625, 1.125, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/TransactionFilteringDataContext/Rule_Parameter" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e53bc56-82e4-4447-8148-d0327e79e793" absoluteBounds="6.6400000000000006, 1.585, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

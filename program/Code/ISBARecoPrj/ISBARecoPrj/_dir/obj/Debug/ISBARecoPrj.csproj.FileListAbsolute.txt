@@ -1,0 +1,11 @@
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\obj\Debug\ISBARecoPrj.ISBATxnGUI.resources
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\obj\Debug\ISBARecoPrj.Properties.Resources.resources
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\obj\Debug\ISBARecoPrj.csproj.GenerateResource.Cache
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\obj\Debug\ISBARecoPrj.csproj.CoreCompileInputs.cache
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\bin\Debug\ISBARecoPrj.exe.config
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\bin\Debug\ISBARecoPrj.exe
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\bin\Debug\ISBARecoPrj.pdb
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\bin\Debug\Mommosoft.ExpertSystem.dll
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\bin\Debug\NVelocity.dll
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\obj\Debug\ISBARecoPrj.exe
+C:\Users\RajBharat\Source\Repos\ISBARecoPrj\ISBARecoPrj\obj\Debug\ISBARecoPrj.pdb
